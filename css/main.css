@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction:column;
+    min-height: 100vh;
+    margin-top:50px ;
+}
+button{
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+.img{
+    justify-content: center;
+    display: flex;
+}
+.topIp{
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    padding-bottom: 15px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+}
