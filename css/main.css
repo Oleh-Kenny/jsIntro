@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(0, 0, 0);
 }
+
 .row{
     display: flex;
     justify-content: center;
@@ -14,8 +16,19 @@
 button{
     border: none;
     padding: 5px;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    border: none;
+    padding: 5px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(231, 38, 38);
+}
+.text{
+    color:rgb(231, 38, 38);
+    font-weight: 900;
+    font-size: 18px;
 }
 .img{
     justify-content: center;
@@ -30,4 +43,15 @@ button{
 .app{
     display: flex;
     justify-content: center;
+    margin: 15px 0;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+}
+.ttt{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 45px;
+    font-weight: 900;
 }
