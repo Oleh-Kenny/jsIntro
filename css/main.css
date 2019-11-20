@@ -8,22 +8,26 @@
 .row{
     display: flex;
     justify-content: center;
-    
     flex-direction:column;
     min-height: 100vh;
     margin-top:50px ;
 }
 button{
     border: none;
-    padding: 5px;
+    padding: 5px 12px;
     color: rgb(0, 0, 0);
+    font-weight: 900;
     background-color: rgb(255, 255, 255);
+    letter-spacing: 2px;
 }
 button:hover{
     border: none;
     padding: 5px;
     color: rgb(255, 254, 254);
     background-color: rgb(231, 38, 38);
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: 0.5s;
 }
 .text{
     color:rgb(231, 38, 38);
